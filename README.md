@@ -13,6 +13,7 @@ A simple terminal-based Checkers game implemented in C using **64-bit bitboards*
 
 ### Using GCC
 Download all files.
+Run this prompt with a command prompt in the project folder
 ```bash
 gcc -std=c11 -Wall -Wextra -O2 -o checkers main.c bitops.c utils.c game.c ui.c save.c
 ```
