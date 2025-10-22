@@ -5,7 +5,7 @@ A simple terminal-based Checkers game implemented in C using **64-bit bitboards*
 ## Features
 - Bitboard-based move and capture logic  
 - King promotion and forced captures  
-- Simple text UI (play in terminal)  
+- Simple text UI
 - Save/load game state  
 
 ## Build and Run
