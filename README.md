@@ -1,1 +1,20 @@
-# checkers-game
+# Bitboard Checkers
+
+A simple terminal-based Checkers game implemented in C using **64-bit bitboards** for piece representation.
+
+## Features
+- Bitboard-based move and capture logic  
+- King promotion and forced captures  
+- Simple text UI (play in terminal)  
+- Save/load game state  
+
+## Build and Run
+
+
+### Using GCC
+Download all files.
+```bash
+gcc -std=c11 -o checkers main.c bitops.c utils.c game.c ui.c save.c
+./checkers
+```
+open checkers.exe
